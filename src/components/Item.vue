@@ -22,7 +22,6 @@ export default {
     methods: {
         openModal: function(i) {
             this.$emit('openModal', i)
-            console.log(i)
         }
     }
 }

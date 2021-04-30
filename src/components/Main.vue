@@ -60,12 +60,9 @@ export default {
             this.pagination[i] = ++i
           }
           this.items = packages.response.hits
-          console.log( this.pagination)
-          console.log(packages)
         },
         changeModal: function(i) {
           this.indexItem = i
-          console.log(i)
         },
         changePage: function(i) {
           this.currentlyPage = i
